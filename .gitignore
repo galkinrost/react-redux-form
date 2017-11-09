@@ -32,7 +32,7 @@ esdoc/
 home/
 
 # Distributed files
-dist/
+dist/index.js
 
 # Analysis files
 stats.json

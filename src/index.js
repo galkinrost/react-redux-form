@@ -63,3 +63,24 @@ export {
   track,
   isValid,
 };
+
+
+window.React = require('react');
+window.ReactDOM = require('react-dom');
+window.redux = require('redux');
+window.reactRedux = require('react-redux');
+window.thunk = require('redux-thunk');
+window.reactReduxForm = {
+  actions,
+  actionTypes,
+  controls: controlPropsMap,
+  createFieldClass,
+  formReducer,
+  modelReducer,
+  Field,
+  Form,
+  getField,
+  initialFieldState,
+  modeled,
+  track,
+};
